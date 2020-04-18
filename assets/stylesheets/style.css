@@ -19,7 +19,11 @@ body {
 
 .header-main {
     height: 300px;
-    background-color: #4267B2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://icatcare.org/app/uploads/2018/06/Layer-1704-1920x840.jpg");
+    box-shadow: 0px 25px 10px -6px;
 }
 
 .header-title {
@@ -28,7 +32,6 @@ body {
     top: 190px;
     color: white;
     
-
 }
 .header-title h5 {
    font-weight: lighter;
@@ -41,8 +44,10 @@ body {
     left: 10px;
     height: 200px;
     width: 200px;
-    background-color: #4267B2;
-    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.tenor.com/images/a0b0883b84e8f58dac5249293fa9e602/tenor.png");
     border-radius: 2%;
     z-index: 2;
     cursor: pointer;
@@ -178,7 +183,7 @@ body {
 .nav-list li {
     position: relative;
     left: 160px;
-    top: 12px;
+    top: 10px;
     display: inline-block;
     font-size: x-small;
     font-weight: bolder;
@@ -189,6 +194,7 @@ body {
    
     color: #333;
     padding: 0px 5px 14px 8px;
+    
 }
 
 .nav-list .more::after {
@@ -201,17 +207,467 @@ body {
 
 
 .nav-list li a:hover {
-    border-bottom: 2px solid #4267B2;
+    border-bottom: 5px solid rgb(65, 66, 68);
     color: black;
    
 }
 
 
+/* Start of main content */
+
+
+.col-row {
+    margin-top: 30px;
+}
+.column1 {
+    float: left;
+    width: 328px;
+    height: 805px;
+    background-color: #898F9C;
+}
+
+.column2 {
+    float: right;
+    width: 512px;
+    height: 800px;
+    background-color: #898F9C;
+}
+
+/* column right status updates */
+
+
+.status {
+    background-color: white;
+    height: 290px;
+    box-shadow: 0px 35px 10px -6px;
+    }
+
+
+.status-profile, .status-profile2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.tenor.com/images/a0b0883b84e8f58dac5249293fa9e602/tenor.png");
+}
+
+.status-profile3 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://meowpassion.com/wp-content/uploads/2020/02/Mr-Pirate-blog-post.jpg");
+} 
+
+.status-text, .status-text2, .status-text3 {
+    float: left;
+    position: relative;
+    top: -35px;
+    left: 60px;
+}
+
+.status-name, .status-name2, .status-name3 {
+    position: relative;
+    top: -2px;
+    left: 10px;
+    font-size: small;
+}
+.status-coverp {
+    position: relative;
+    top: -20px;
+    left: 90px;
+    font-size: x-small;
+}
+
+.status-coverp3 {
+    position: relative;
+    top: -20px;
+    left: 90px;
+    font-size: x-small;
+}
+
+.status-time {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: x-small;
+}
+
+ .status-time2 {
+    position: relative;
+    left: 10px;
+    font-size: x-small;
+}
+
+ .status-time3 {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: x-small;
+}
+.status-pic {
+    position: relative;
+    top: 30px;
+    left: 5px;
+    height: 205px;
+    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://icatcare.org/app/uploads/2018/06/Layer-1704-1920x840.jpg");
+}
+
+.status-pic3 {
+    position: relative;
+    top: 30px;
+    left: 5px;
+    height: 205px;
+    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media3.giphy.com/media/26FKWlExAnsWOKSKk/source.gif");
+}
+
+.status-paragraph {
+    position: relative;
+    top: 30px;
+    left: -80px;
+    font-size: x-small;
+}
+
+.status-socialBar {
+    height: 30px;
+    position: relative;
+    top: 35px;
+    left: -1px;
+    width: 514px;
+    background-color: rgb(237, 240, 241);
+    border: .5px solid #898F9C;
+}
+
+.status-socialBar2 {
+    height: 30px;
+    position: relative;
+    top: 50px;
+    left: -1px;
+    width: 514px;
+    background-color: rgb(237, 240, 241);
+    border: .5px solid #898F9C;
+}
+
+.status-socialBar3 {
+    height: 30px;
+    position: relative;
+    top: 35px;
+    left: -1px;
+    width: 514px;
+    background-color: rgb(237, 240, 241);
+    border: .5px solid #898F9C;
+}
+
+.status-socialBar  ul li {
+   position: relative;
+   left: 10px;
+   display: inline;
+   font-size: x-small;
+   padding: 1px;
+   cursor: pointer;
     
+}
 
- 
+.status-socialBar2  ul li {
+   position: relative;
+   left: -85px;
+   display: inline;
+   font-size: x-small;
+   padding: 1px;
+   cursor: pointer;
+    
+    
+}
+
+.status-socialBar3  ul li {
+   position: relative;
+   left: 8px;
+   display: inline;
+   font-size: x-small;
+   padding: 1px;
+   cursor: pointer;
+    
+}
+
+.status2 {
+    background-color: white;
+    height: 165px;
+    margin: 40px 0;
+    box-shadow: 0px 8px 10px -6px;
+
+}
+
+.status3 {
+    position: relative;
+    top: -30px;
+    background-color: white;
+    height: 290px;
+    box-shadow: 0px 35px 10px -6px;
+
+    }
+
+/* Column left */
+
+.about {
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: white;
+    height: 160px;
+    box-shadow: 0px 25px 10px -6px;
+    }
+
+    .about-bar {
+        background-color: rgb(237, 240, 241);
+        border-bottom: .5px solid #898F9C;
+       
+    }
+
+    .about-bar h2 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+       
+        
+
+    }
+
+    .about-bar h3 {
+        position: relative;
+        top: 55px;
+        left: 60px;
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+
+    .about-bar h3::before {
+        content: "📍";
+        padding-right: 10px;
+       
+    }
+
+    .about-bar h2::after {
+        position: relative;
+        left: 240px;
+       content: "➤";
+       
+
+    }
+
+    .about-link {
+        position: relative;
+        top: 90px;
+        padding: 5px;
+         background-color: rgb(237, 240, 241);
+         border-top: .5px solid #898F9C;
+         
+    }
+
+    .about-link a {
+        position: relative;
+        left: 5px;
+        font-size: large;
+       color: #333;
+       
+    }
+
+    .about-link a::before {
+        content: "🌐";
+        padding: 5px;;
+       
+        
+        
+        
+      
+       
+    }
+    
+   .groups {
+        font-size: 12px;
+        font-weight: lighter;
+        position: relative;
+        top: 35px;
+        background-color: white;
+        height: 300px;
+        box-shadow: 0px 8px 10px -6px;
+    }
+
+    .groups-bar {
+        background-color: rgb(237, 240, 241);
+        border-bottom: .5px solid #898F9C;
+        
+    }
+
+    .groups-bar h2 {
+        position: relative;
+        left: 5px;
+        padding: 5px;
+
+    }
+
+    .yarn-group {
+        position: relative;
+        left: 10px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://marymaxim.cdn.speedyrails.net/media/catalog/product/cache/afad95d7734d2fa6d0a8ba78597182b7/5/5/554-rose-wrapped_1.jpg");
+        
+    }
+
+    .yarn-group h2 {
+        position: relative;
+        top: 35px;
+        left: 150px;     
+    }
+
+    .linebreak {
+        position: relative;
+        top: 90px;
+        height: .5px;
+        width: 300px;
+        background-color: #898F9C;
+    }
 
 
+    .cat-tower {
+        position: relative;
+        top: 50px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://i5.walmartimages.com/asr/03119564-4b97-4505-a522-29d2f5d0d62d_1.3b13f5d772d06f0f8d2a11d65c851dec.png?odnWidth=450&odnHeight=450&odnBg=ffffff");
+        
+     
+    }
+
+    .cat-tower h2 {
+        position: relative;
+        top: 35px;
+        left: 150px;    
+    }
+
+
+
+.photos {
+    font-size: 12px;
+    font-weight: lighter;
+    position: relative;
+    top: 50px;
+    background-color: white;
+    height: 305px;
+    box-shadow: 0px 8px 10px -6px;
+    }
+
+    .photos-bar {
+        background-color: rgb(237, 240, 241);
+        border-bottom: .5px solid #898F9C;
+       
+    }
+
+    .photos-bar h2 {
+        position: relative;
+        left: 5px;
+        padding: 5px;
+
+    }
+
+    .photos-bar h2::after {
+        position: relative;
+        left: 235px;
+        content: "➤";
+       
+
+    }
+
+    .pic1 {
+        position: relative;
+        top: 20px;
+        left: 5px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://cdn.vox-cdn.com/thumbor/2XTYqiTtJ-8H8k46jALMh9ZMfzU=/0x0:1548x1024/1200x800/filters:focal(693x458:939x704)/cdn.vox-cdn.com/uploads/chorus_image/image/65936299/cats4.0.jpg");
+    }
+    .pic2 {
+        position: relative;
+        top: -80px;
+        left: 112px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://static01.nyt.com/images/2019/12/20/arts/00cats-1/00cats-1-videoSixteenByNineJumbo1600-v3.jpg");
+    }
+    .pic3 {
+        position: relative;
+        top: -180px;
+        left: 220px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://i.imgflip.com/3adut9.jpg");
+    }
+    .pic4 {
+        position: relative;
+        top: -170px;
+        left: 5px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://img.huffingtonpost.com/asset/5dcc613f1f00009304dee539.jpeg?cache=QaTFuOj2IM&ops=crop_834_777_4651_2994%2Cscalefit_720_noupscale");
+    }
+    .pic5 {
+        position: relative;
+        top: -270px;
+        left: 112px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://consequenceofsound.net/wp-content/uploads/2019/12/lil-bub-ashes-satellite-space.png?w=800");
+    }
+    .pic6 {
+        position: relative;
+        top: -370px;
+        left: 220px;
+        height: 100px;
+        width: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("https://www.thehonestkitchen.com/blog/wp-content/uploads/2019/07/cat-memes.jpg");
+    }
 
 
 
